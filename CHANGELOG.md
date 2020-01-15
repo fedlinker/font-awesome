@@ -1,3 +1,12 @@
+## 0.4.0 (2020-01-15)
+
+* 0.4.0 ([e6fd0e7](https://github.com/fedlinker/font-awesome/commit/e6fd0e7))
+* feat(svg): update svg components ([94c8304](https://github.com/fedlinker/font-awesome/commit/94c8304))
+* fix(tools): fixed the error of svg filename ([91f1726](https://github.com/fedlinker/font-awesome/commit/91f1726))
+* docs(changelog): update CHANGELOG.md ([a4b236a](https://github.com/fedlinker/font-awesome/commit/a4b236a))
+
+
+
 ## 0.3.0 (2020-01-15)
 
 * 0.3.0 ([7c69476](https://github.com/fedlinker/font-awesome/commit/7c69476))
