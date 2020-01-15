@@ -8,7 +8,7 @@
     "gen-icons": "rimraf ./src/svg && node ./tools/parse-svg.js && node ./tools/generate-entry.js",
     "build": "rimraf ./lib && tsc",
     "gen-changelog": "npm run changelog && git add . && git commit -m 'docs(changelog): update CHANGELOG.md' && git push && git push --tags",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -n ./node_modules/@codoonfxd/changelog-config/index.js -i CHANGELOG.md -s -r 0"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,8 @@
   },
   "homepage": "https://github.com/fedlinker/font-awesome#readme",
   "devDependencies": {
+    "@codoonfxd/changelog-config": "^0.2.0",
+    "@codoonfxd/commitlint-config": "^0.2.0",
     "@commitlint/config-conventional": "^8.3.4",
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@svgr/cli": "^5.0.1",
@@ -54,7 +56,7 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "@codoonfxd/commitlint-config"
     ]
   },
   "prettier": {

@@ -126,6 +126,19 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@codoonfxd/changelog-config@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/@codoonfxd/changelog-config/download/@codoonfxd/changelog-config-0.2.0.tgz#ad9cbdbbe2056d23f6d8172a113c5ac3e07fdd32"
+  integrity sha1-rZy9u+IFbSP22BcqETxaw+B/3TI=
+  dependencies:
+    compare-func "^1.3.1"
+    q "^1.5.1"
+
+"@codoonfxd/commitlint-config@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/@codoonfxd/commitlint-config/download/@codoonfxd/commitlint-config-0.2.0.tgz#762cec491093c69d721b89c35e1e502b5389e1e1"
+  integrity sha1-dizsSRCTxp1yG4nDXh5QK1OJ4eE=
+
 "@commitlint/cli@^8.3.4":
   version "8.3.4"
   resolved "https://registry.npm.taobao.org/@commitlint/cli/download/@commitlint/cli-8.3.4.tgz#aabcd997124bd0656ebd2a805ec9e92cfb663d78"
