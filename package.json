@@ -6,7 +6,9 @@
   "module": "lib/index.js",
   "scripts": {
     "gen-icons": "rimraf ./src/svg && node ./tools/parse-svg.js && node ./tools/generate-entry.js",
-    "build": "rimraf ./lib && tsc"
+    "build": "rimraf ./lib && tsc",
+    "gen-changelog": "npm run changelog && git add . && git commit -m 'docs(changelog): update CHANGELOG.md' && git push && git push --tags",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "repository": {
     "type": "git",
@@ -28,16 +30,37 @@
   },
   "homepage": "https://github.com/fedlinker/font-awesome#readme",
   "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@svgr/cli": "^5.0.1",
     "@svgr/core": "^5.0.1",
     "@types/fs-extra": "^8.0.1",
     "@types/react": "^16.9.17",
+    "commitlint": "^8.3.4",
+    "conventional-changelog-cli": "^2.0.31",
     "fs-extra": "^8.1.0",
+    "husky": "^4.0.9",
+    "lint-staged": "^9.5.0",
     "ora": "^4.0.3",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "rimraf": "^3.0.0",
     "typescript": "^3.7.4"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
