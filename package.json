@@ -1,6 +1,6 @@
 {
   "name": "@fedlinker/font-awesome",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React components of font-awesome icons.",
   "main": "lib/index.js",
   "module": "lib/index.js",
