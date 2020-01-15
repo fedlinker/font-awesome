@@ -1,33 +1,37 @@
-## 0.4.0 (2020-01-15)
-
-* 0.4.0 ([e6fd0e7](https://github.com/fedlinker/font-awesome/commit/e6fd0e7))
-* feat(svg): update svg components ([94c8304](https://github.com/fedlinker/font-awesome/commit/94c8304))
-* fix(tools): fixed the error of svg filename ([91f1726](https://github.com/fedlinker/font-awesome/commit/91f1726))
-* docs(changelog): update CHANGELOG.md ([a4b236a](https://github.com/fedlinker/font-awesome/commit/a4b236a))
+# [0.4.0](https://github.com/fedlinker/font-awesome/compare/v0.3.0...v0.4.0) (2020-01-15)
 
 
+### 🎊 新增功能
 
-## 0.3.0 (2020-01-15)
+* **svg:** update svg components ([94c8304](https://github.com/fedlinker/font-awesome/commit/94c8304eea822b415bd69691d6ab704af752113e))
 
-* 0.3.0 ([7c69476](https://github.com/fedlinker/font-awesome/commit/7c69476))
-* chore(changelog): add changelog generator ([c6d8f03](https://github.com/fedlinker/font-awesome/commit/c6d8f03))
+
+### 🐛 bug修复
+
+* **tools:** fixed the error of svg filename ([91f1726](https://github.com/fedlinker/font-awesome/commit/91f1726423018a58c770602b923a75b296da44db))
 
 
 
-## <small>0.2.1 (2020-01-15)</small>
-
-* 0.2.1 ([5cbd3bb](https://github.com/fedlinker/font-awesome/commit/5cbd3bb))
-* fix(generateIcon): fixed error of react dependency ([82667a2](https://github.com/fedlinker/font-awesome/commit/82667a2))
+# [0.3.0](https://github.com/fedlinker/font-awesome/compare/v0.2.1...v0.3.0) (2020-01-15)
 
 
 
-## 0.2.0 (2020-01-15)
+## [0.2.1](https://github.com/fedlinker/font-awesome/compare/v0.2.0...v0.2.1) (2020-01-15)
 
-* 0.2.0 ([50bd3c5](https://github.com/fedlinker/font-awesome/commit/50bd3c5))
-* Initial commit ([b2fb350](https://github.com/fedlinker/font-awesome/commit/b2fb350))
-* chore(deps): remove useless dependencies ([fc92429](https://github.com/fedlinker/font-awesome/commit/fc92429))
-* feat: building svg files ([03c0ccc](https://github.com/fedlinker/font-awesome/commit/03c0ccc))
-* feat(*): add svg parser and build config ([be7efaf](https://github.com/fedlinker/font-awesome/commit/be7efaf))
+
+### 🐛 bug修复
+
+* **generateIcon:** fixed error of react dependency ([82667a2](https://github.com/fedlinker/font-awesome/commit/82667a2e10a0eebe5f4986b8a6ba796f1fa755ac))
+
+
+
+# [0.2.0](https://github.com/fedlinker/font-awesome/compare/be7efaf27c572ae9b3e8a406a9f8c681dcb6afe6...v0.2.0) (2020-01-15)
+
+
+### 🎊 新增功能
+
+* building svg files ([03c0ccc](https://github.com/fedlinker/font-awesome/commit/03c0ccc3f579df0962b5dae10b39f9fb7c37417f))
+* **😃 其他变更:** add svg parser and build config ([be7efaf](https://github.com/fedlinker/font-awesome/commit/be7efaf27c572ae9b3e8a406a9f8c681dcb6afe6))
 
 
 
