@@ -1,4 +1,4 @@
-import { SFC, SVGProps, PropsWithChildren, HTMLAttributes } from "react";
+import React, { SFC, SVGProps, PropsWithChildren, HTMLAttributes } from "react";
 
 type IIconComponent = SFC<SVGProps<SVGSVGElement>>;
 export interface IIconBaseProps
@@ -14,7 +14,10 @@ export default function generateIcon(IconComponent: IIconComponent) {
   const Icon: IIconComponentType = (props: IIconBaseProps) => {
     return (
       <IconBase {...props}>
-        <IconComponent fill="currentColor" />
+        <IconComponent
+          fill="currentColor"
+          style={{ verticalAlign: "middle" }}
+        />
       </IconBase>
     );
   };

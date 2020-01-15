@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/fedlinker/font-awesome#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "@svgr/cli": "^5.0.1",
     "@svgr/core": "^5.0.1",
     "@types/fs-extra": "^8.0.1",
@@ -37,7 +38,6 @@
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "rimraf": "^3.0.0",
-    "typescript": "^3.7.4",
-    "@fortawesome/fontawesome-free": "^5.12.0"
+    "typescript": "^3.7.4"
   }
 }
