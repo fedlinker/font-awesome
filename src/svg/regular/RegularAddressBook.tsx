@@ -1,5 +1,5 @@
-import React, { SVGProps } from "react";
-import generateIcon from "../../generateIcon";
+import React, { SVGProps } from 'react';
+import generateIcon from '../../generateIcon';
 
 const RegularAddressBook = (props: SVGProps<SVGSVGElement>) => {
   return (
