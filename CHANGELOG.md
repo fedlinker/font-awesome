@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/fedlinker/font-awesome/compare/v0.4.1...v0.4.2) (2020-01-16)
+
+
+### 🐛 bug修复
+
+* **generateIcon:** add align-items property ([51cf769](https://github.com/fedlinker/font-awesome/commit/51cf7691e2e553b883ff8b77736bfed4e3c9dd6b))
+
+
+
 ## [0.4.1](https://github.com/fedlinker/font-awesome/compare/v0.4.0...v0.4.1) (2020-01-16)
 
 
