@@ -8,7 +8,10 @@ export type IIconComponentType = SFC<IIconBaseProps>;
 function IconBase(props: IIconBaseProps) {
   const { children, style, ...rest } = props;
   return (
-    <span style={{ display: 'inline-flex', ...style }} {...rest}>
+    <span
+      style={{ display: 'inline-flex', alignItems: 'center', ...style }}
+      {...rest}
+    >
       {children}
     </span>
   );
