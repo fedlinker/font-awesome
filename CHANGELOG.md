@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/fedlinker/font-awesome/compare/v0.4.0...v0.4.1) (2020-01-16)
+
+
+### 🐛 bug修复
+
+* **generateIcon:** adjust display property ([13dca95](https://github.com/fedlinker/font-awesome/commit/13dca95f608d8e3dd3fdefe70d8de1682316049d))
+
+
+
 # [0.4.0](https://github.com/fedlinker/font-awesome/compare/v0.3.0...v0.4.0) (2020-01-15)
 
 
