@@ -4,6 +4,7 @@
   "description": "React components of font-awesome icons.",
   "main": "lib/index.js",
   "module": "lib/index.js",
+  "sideEffects": false,
   "scripts": {
     "gen-icons": "rimraf ./src/svg && node ./tools/parse-svg.js && node ./tools/generate-entry.js",
     "build": "rimraf ./lib && tsc",
