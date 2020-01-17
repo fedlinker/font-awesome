@@ -1,3 +1,12 @@
+## [0.4.3](https://github.com/fedlinker/font-awesome/compare/v0.4.2...v0.4.3) (2020-01-17)
+
+
+### 🐛 bug修复
+
+* **webpack:** fixed tree shaking error ([9fa570b](https://github.com/fedlinker/font-awesome/commit/9fa570b8157ebd19d4a534d50899a0b38efae997))
+
+
+
 ## [0.4.2](https://github.com/fedlinker/font-awesome/compare/v0.4.1...v0.4.2) (2020-01-16)
 
 
