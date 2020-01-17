@@ -36,4 +36,4 @@ export default () => {
 };
 ```
 
-## (Changelog)[https://github.com/fedlinker/font-awesome/blob/master/CHANGELOG.md]
+## [Changelog](https://github.com/fedlinker/font-awesome/blob/master/CHANGELOG.md)
